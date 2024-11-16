@@ -1,3 +1,3 @@
-var posts=["2024/11/16/hello-world/"];function toRandomPost(){
+var posts=["2024/11/16/hello-world/","2024/09/17/A-B/","2024/09/16/AT_arc183_a/","2024/09/17/Givers/","2024/09/17/Janken 3/","2024/09/17/MakeThemNarrow/","2024/10/11/Tracks-in-the-Snow/","2024/09/17/ZCBXJZXL/","2024/09/17/dbxl/","2024/09/17/gyt/","2024/09/22/luogu/","2024/09/17/o1bag/","2024/09/17/plzhwt/","2024/09/17/rcsdxz/","2024/09/17/sdjbgn/","2024/09/16/text/","2024/09/17/xxydl/","2024/09/17/xxyyx/","2024/09/17/zcb/","2024/09/17/zdds/","2024/09/17/zpyx/","2024/10/02/如何防止CSP爆零？/","2024/09/22/训练小结/"];function toRandomPost(){
     pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);
   };
